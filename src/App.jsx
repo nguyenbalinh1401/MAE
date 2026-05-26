@@ -75,13 +75,13 @@ function App() {
             Toán Học Đại Cương
           </h1>
           <p style={{ color: 'var(--text-muted)', marginBottom: '2rem', fontSize: '1.1rem', lineHeight: 1.6 }}>
-            Kiểm tra kiến thức của bạn với 30 câu hỏi trắc nghiệm chuyên sâu về hai chủ đề: <br/>
+            Kiểm tra kiến thức của bạn với 40 câu hỏi trắc nghiệm chuyên sâu về hai chủ đề: <br/>
             <strong style={{ color: 'var(--text-main)' }}>Dịch chuyển đồ thị hàm số</strong> & <strong style={{ color: 'var(--text-main)' }}>Giới hạn hai phía</strong>.
           </p>
-          <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginBottom: '2rem' }}>
-            <div className="badge badge-easy">10 Câu Dễ</div>
-            <div className="badge badge-hard">10 Câu Khó</div>
-            <div className="badge badge-thinking">10 Câu Tư Duy</div>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginBottom: '2rem', flexWrap: 'wrap' }}>
+            <div className="badge badge-easy">14 Câu Dễ</div>
+            <div className="badge badge-hard">14 Câu Khó</div>
+            <div className="badge badge-thinking">12 Câu Tư Duy</div>
           </div>
           <button className="btn btn-primary" onClick={handleStart} style={{ padding: '1rem 2rem', fontSize: '1.2rem' }}>
             <Play size={20} /> Bắt Đầu Ngay
